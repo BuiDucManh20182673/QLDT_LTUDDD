@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "721674481669",
+    "firebase_url": "https://qldt-20182805-default-rtdb.firebaseio.com",
+    "project_id": "qldt-20182805",
+    "storage_bucket": "qldt-20182805.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721674481669:android:fcc90ecdedd9d31b572c6c",
+        "android_client_info": {
+          "package_name": "com.example.qldt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721674481669-1jonfii60ku2ql3uu8c3loqarlgi6fkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjgJKvQUPL5ydB6j_F62JV_KaG6BToI6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721674481669-1jonfii60ku2ql3uu8c3loqarlgi6fkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

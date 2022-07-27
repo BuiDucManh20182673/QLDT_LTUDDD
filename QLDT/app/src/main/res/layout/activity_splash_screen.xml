@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9BE2EC"
+    android:gravity="center_horizontal"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="199dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="50dp"
+        android:src="@drawable/logohust" />
+    <TextView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHẦN MỀM"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1818C8"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÍ ĐÀO TẠO"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#1818C8"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhóm Sinh Viên"
+        android:textStyle="italic"
+        android:textColor="#1818C8"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="100dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Trần Công Thịnh - 20182805"
+            android:textStyle="bold"
+            android:textColor="#1818C8"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Bùi Đức Mạnh - 20182673"
+            android:textColor="#1818C8"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Lê Hải Long - 20182652"
+            android:textColor="#1818C8"
+            tools:ignore="HardcodedText" />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giảng Viên Hướng Dẫn"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="TS.Vũ Song Tùng"
+        tools:ignore="HardcodedText" />
+
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:layout_width="99dp"
+        android:layout_height="61dp"
+        android:indeterminate="true"
+        android:padding="30dp"
+        app:indicatorColor="#F44336" />
+
+
+
+
+</LinearLayout>
